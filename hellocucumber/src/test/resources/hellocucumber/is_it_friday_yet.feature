@@ -1,21 +1,15 @@
-Feature: C'est déjà vendredi ?
-  Tout le monde veut savoir c'est quand vendredi
+# language: fr
 
-  Scenario: Dimanche c'est pas vendredi
-    Given Aujourd'hui c'est Dimanche
-    When je demande si c'est déjà vendredi
-    Then On devrais me dire Nope
+Fonctionnalité: : C'est déjà ?
+  je veux vraiment savoir si aujourd'hui c'est vendredi
 
+  Plan du scénario: Aujourd'hui c'est vendredi ?
+    Etant donné Aujourd'hui c'est "<jour>"
+    Quand Je demande c'est quand Vendredi
+    Alors Il faudrait me dire "<reponse>"
 
-Feature: C'est déjà vendredi ?
-  Tout le monde veut savoir c'est quand vendredi
-
-  Scenario Outline: Dimanche c'est pas vendredi
-    Given Aujourd'hui c'est Dimanche
-    When je demande si c'est déjà vendredi
-    Then On devrais me dire "TGIF"
-    Examples:
-      | day            | answer |
-      | Friday         | TGIF   |
-      | Sunday         | Nope   |
-      | anything else! | Nope   |
+    Exemples:
+      | jour           | reponse |
+      | Friday         | TGIF    |
+      | Sunday         | Non     |
+      | anything else! | Non     |
