@@ -20,4 +20,24 @@ public void today_is_sunday() {
 .Exemple d'image insérée en asciidoc
 image::artifacts-r303.svg[width=80%]
 
+Voici le contenue de mon fichier : is_it_friday_yet.feature :
+
+
+    #language: fr
+    Fonctionnalité: : C'est déjà ?
+    je veux vraiment savoir si aujourd'hui c'est vendredi
+
+  Plan du scénario: Aujourd'hui c'est vendredi ?
+    Etant donné Aujourd'hui c'est "<jour>"
+    Quand Je demande c'est quand Vendredi
+    Alors Il faudrait me dire "<reponse>"
+
+    Exemples:
+      | jour           | reponse |
+      | Friday         | TGIF    |
+      | Sunday         | Non     |
+      | anything else! | Non     |
+
+image::test.png[width]
+
 == TP2...
