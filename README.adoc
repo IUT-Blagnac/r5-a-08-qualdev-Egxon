@@ -93,3 +93,33 @@ Voici le contenu de ma classe order :
     }
 
 image::test-tp2.png[width]
+
+== TP3
+
+J'ai décidé de faire le TP3 sur python, en important une BD que j'ai crée
+qui comporte des données sur des matchs E-Sport des championnats du monde
+de League of Legend (Quart de final : LNG vs T1)
+
+Voici mon fichier feature :
+
+image::PythonFeature.png[width]
+
+Voici mon fichier Python de test
+
+image::PythonTest.png[width]
+
+Et enfin voici les résultats :
+
+image::PythonResult.png[width]
+
+Explication :
+
+Pour ce TP, j'ai décidé d'essayer cucumber sur python pour
+voir comment ça marche avec Bahave.
+De plus j'ai repris une base de donnée d'un projet personnel
+pour relier conaissance des projets pro + conaissance de l'iut.
+Donc mon ojectif était de tester ma BD avec cucumber (behave sur python).
+
+J'ai eu des difficulté sur le choix du language, c'est à dire que ma feature
+est écrit en français alors que j'ai pas indiqué le language avec #langage: fr.
+Néanmoin les test sont bien passé et tout marche bien.
