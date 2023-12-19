@@ -123,3 +123,14 @@ Donc mon ojectif était de tester ma BD avec cucumber (behave sur python).
 J'ai eu des difficulté sur le choix du language, c'est à dire que ma feature
 est écrit en français alors que j'ai pas indiqué le language avec #langage: fr.
 Néanmoin les test sont bien passé et tout marche bien.
+
+== TP4
+
+
+link:report.txt[le lien TXT de mon test hellocucumber avec les lignes de commandes]
+
+link:cucumber.html[le lien HTML de mon test hellocucumber avec cukedoctor]
+
+link:cucumber.json[le lien JSON de mon test hellocucumber avec cukedoctor]
+
+https://htmlpreview.github.io/?https://github.com/IUT-Blagnac/r5-a-08-qualdev-Egxon/blob/main/site/serenity/index.html[Doc fait avec sernity]
